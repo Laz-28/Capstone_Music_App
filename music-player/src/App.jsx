@@ -12,7 +12,7 @@ function App() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   
-  // API Integration (The FIX)
+  // API Integration 
   const fetchMusic = async (query) => {
     setLoading(true);
     setError(null);
